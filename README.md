@@ -8,7 +8,7 @@ The **ALU-AirBnB Clone** project focuses on developing the console part of the A
 - **Serialization/Deserialization:** Develop a simple flow for converting instances to and from JSON strings, dictionaries, and files.
 - **AirBnB Classes:** Create classes representing various AirBnB entities (e.g., User, State, City, Place) that inherit from `BaseModel`.
 - **File Storage Engine:** Implement a file storage system to manage object persistence.
-- **Unit Testing:** Develop unittests to validate all classes and the storage engine.
+- **Unit Testing:** Develop unit tests to validate all classes and the storage engine.
 
 ## Command Interpreter
 
@@ -49,7 +49,7 @@ Once the command interpreter is running, I will use it to manage AirBnB objects 
 
 - **Creating a New User:**
   ```bash
-  create User name="Alice" email="alice@example.com"
+  create User name="Agape" email="agape@example.com"
   ```
   Output:
   ```
@@ -62,16 +62,16 @@ Once the command interpreter is running, I will use it to manage AirBnB objects 
   ```
   Output:
   ```
-  User(<generated_id>) {name: "Alice", email: "alice@example.com", ...}
+  User(<generated_id>) {name: "Agape", email: "agape@example.com", ...}
   ```
 
 - **Updating a User's Email:**
   ```bash
-  update User <generated_id> email "alice_new@example.com"
+  update User <generated_id> email "agape_new@example.com"
   ```
   Output:
   ```
-  User updated successfully.
+  The user updated successfully.
   ```
 
 - **Destroying a User:**
