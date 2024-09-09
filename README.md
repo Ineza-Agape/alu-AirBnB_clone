@@ -67,7 +67,7 @@ Once the command interpreter is running, I will use it to manage AirBnB objects 
 
 - **Updating a User's Email:**
   ```bash
-  update User <generated_id> email "agape_new@example.com"
+  update User <generated_id> email "diane_new@example.com"
   ```
   Output:
   ```
